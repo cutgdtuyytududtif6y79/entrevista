@@ -1,0 +1,33 @@
+//Exercicio 1
+using System;
+
+class CheckNum{
+    static void Main(string[] args){
+        Console.WriteLine("Informe um número: ");
+        int num = int.Parse(Console.ReadLine());
+
+        if (IsFibonacci(num))
+            Console.WriteLine($"Número: {num} pertence à sequência de Fibonacci.");
+        else
+            Console.WriteLine($"Número: {num} não pertence à sequência de Fibonacci.");
+    }
+
+    static bool IsFibonacci(int n){
+        int a = 0, b = 1;
+        int nextFib = a + b;
+        
+        if (n == 0 || n == 1){
+            return true;
+        }
+
+        while (nextFib <= n){
+            if (nextFib == n)
+            return true;
+
+            a = b;
+            b = nextFib;
+            nextFib = a + b;
+        }
+        return false;
+    }
+}
