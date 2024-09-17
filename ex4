@@ -1,0 +1,19 @@
+4) Descubra a lógica e complete o próximo elemento:
+
+a) 1, 3, 5, 7, ___ Resposta: 9
+ +2 +2 +2 +2.
+
+b) 2, 4, 8, 16, 32, 64, ____ Resposta: 128
+ x2.
+
+c) 0, 1, 4, 9, 16, 25, 36, ____ Resposta: 49
+ +0 +1 +3 +5 +7 +9 +11 OU 0², 1², 2², 3², 4², 5², 6², 7² ambas as lógicas possuem o mesmo resultado.
+
+d) 4, 16, 36, 64, ____ Resposta: 100
+ 2², 4², 6², 8², 10².
+
+e) 1, 1, 2, 3, 5, 8, ____ Resposta: 13
+ 1 1+2 2+3 3+5 5+8 Fibonacci igual o primeiro exercicio dos desafios.
+
+f) 2,10, 12, 16, 17, 18, 19, ____ Resposta: 200
+dois, dez, doze, dezeseis, dezessete, dezoito, dezenove, duzentos.
